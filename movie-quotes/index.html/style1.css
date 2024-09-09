@@ -1,0 +1,60 @@
+body {
+    background-image: url('https://www.usatoday.com/gcdn/authoring/authoring-images/2024/01/29/USAT/72396601007-ghostbusters.jpg?crop=3332,3332,x591,y0');
+    background-size: cover; /* This makes sure the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Ensures the background stays in place when scrolling */
+}
+.box {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid green; 
+    padding: 20px; 
+    text-align: center; 
+}
+h1{
+    font-family: "strenuous", sans-serif;
+    color: green;
+    font-size:70px;
+    font: weight 900;
+    font-style: normal;
+    text-align: center;
+}
+h2{
+    font-family: "strenuous", sans-serif;
+     font-weight: 400;
+    font-style: normal;
+    line-height: 0.5;
+    color: green;
+    font-size:30px;
+    text-align: center;
+}
+.box2 {
+    margin-top: 30;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 5px solid green; 
+    padding: 20px; 
+    text-align: left; 
+}
+p{
+    font-family: "ff-nexus-typewriter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.box3 {
+    margin-top: 30;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid green; 
+    padding: 20px; 
+    text-align: left; 
+}
+.box4 {
+    margin-top: 30;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid green; 
+    padding: 20px; 
+    text-align: left; 
+}
+em {
+    font-size: 0.85em; /* Make text smaller */
+    font-style: italic; /* Italicize text */
+    color: grey; /* Optional: change the color of the italic text */
+}
