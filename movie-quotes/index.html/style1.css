@@ -1,8 +1,8 @@
 body {
     background-image: url('https://www.usatoday.com/gcdn/authoring/authoring-images/2024/01/29/USAT/72396601007-ghostbusters.jpg?crop=3332,3332,x591,y0');
-    background-size: cover; /* This makes sure the image covers the entire background */
-    background-position: center; /* Centers the background image */
-    background-attachment: fixed; /* Ensures the background stays in place when scrolling */
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
 }
 .box {
     background-color: rgba(0, 0, 0, 0.7);
