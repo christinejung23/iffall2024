@@ -54,7 +54,7 @@ p{
     text-align: left; 
 }
 em {
-    font-size: 0.85em; /* Make text smaller */
-    font-style: italic; /* Italicize text */
-    color: grey; /* Optional: change the color of the italic text */
+    font-size: 0.85em; 
+    font-style: italic; 
+    color: grey;
 }
