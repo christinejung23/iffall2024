@@ -1,0 +1,78 @@
+html {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15pt;
+    font-weight: 400;
+  }
+
+body {
+  margin: 8%;
+}
+
+h1 {
+  color: blue;
+  font-size: 60pt;
+  text-indent: -3rem;
+  margin: 1rem 0;
+}
+h2 {
+  font-style: normal;
+  line-height: 0.8;
+  font-weight: 400;
+}
+
+p{
+  font-size: 15pt;
+  text-indent: 1rem;
+}
+
+.category{
+  color: blue;
+  font-size:25pt;
+  font-weight:700;
+  text-indent: -2rem;
+}
+
+.sub{
+  font-weight: 700;
+  text-indent: -1rem;
+}
+.bold {
+  font-weight:700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.track {
+  letter-spacing: 0.5em;
+}
+
+.tracked {
+  letter-spacing: -0.1em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.through {
+  text-decoration: line-through;
+}
+
+section{
+margin-top: 2.5rem;
+margin-bottom: 2.5rem;
+}
