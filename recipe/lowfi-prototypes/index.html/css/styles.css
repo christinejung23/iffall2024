@@ -1,0 +1,45 @@
+html {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15pt;
+    font-weight: 400;
+    background-color:lightcyan;
+  }
+body {
+    margin: 6%;
+  }
+h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 35pt;
+    color: purple;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    gap: 10px;
+}
+.link {
+    margin-left:23%;
+}
+.category {
+    font-weight:700;
+    color:purple;
+    font-size:25pt;
+    margin-bottom: 0rem;
+}
+
+.ingredient {
+    margin-left: 23%;
+}
+
+.instruction {
+    margin-left: 23%;
+    margin-right: 20%
+}
+
+.ref {
+    margin-left: 23%;
+    margin-right: 20%
+}
