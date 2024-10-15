@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../../multi-panel-page"
+		},
+		{
+			"path": "../../../grids"
+		},
+		{
+			"path": "../../../../responsive-design-intro"
+		},
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../recipe/research"
+		}
+	],
+	"settings": {}
+}
