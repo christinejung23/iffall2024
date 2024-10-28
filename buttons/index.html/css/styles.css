@@ -1,0 +1,440 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_lyft {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    border-radius: 15px;
+    padding: 5px 40px;
+    background-color: #e90d9f; 
+    border: 2px solid #e90d9f;
+    color: #fff; 
+    font-size: 30px;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+    transform: translateX(0); 
+}
+
+a#btn_lyft:hover {
+    background-color: #fff; 
+    color: #e90d9f; 
+    border-color: #e90d9f;
+    transform: translateY(-30px);
+}
+
+a#btn_harley {
+    display: inline-block;
+    height: 70px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding: 7px 40px;
+    background-color: #e9690d; 
+    color: #fff; 
+    border: 10px solid #000;
+    font-size: 23px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    text-decoration: none; 
+    transition: all 0.3s ease;
+    transform: skew(0deg);
+}
+
+a#btn_harley:hover {
+    transform: skew(-20deg);
+    font-style: italic; 
+    background-color: #000;
+}
+
+a#btn_cartoon_network {
+    display: inline-block;
+    padding-top: 50px;
+    font-weight: 900;
+    font-size: 80px;
+    text-decoration: none; 
+    font-family: Arial, sans-serif;
+    text-align:center;
+}
+
+.cn-letter {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.cn-letter.c {
+    color: #fff; 
+    background-color: #000; 
+}
+
+.cn-letter.n {
+    color: #000; 
+    background-color: #fff; 
+}
+a#btn_cartoon_network:hover .c {
+    animation: bounce-left 0.6s ease;
+}
+
+a#btn_cartoon_network:hover .n {
+    animation: bounce-right 0.6s ease;
+}
+
+@keyframes bounce-left {
+    33% {transform: translate(-10px) rotate(-15deg);}
+    66% {transform: translate(15px) rotate(10deg);}
+}
+
+@keyframes bounce-right {
+    33% {transform: translate(10px) rotate(15deg);}
+    66% {transform: translate(-15px) rotate(-10deg);}
+}
+
+a#btn_ibm {
+    font-family: "Roboto Slab", serif;
+    font-size: 90px;
+    font-weight: 800;
+    padding-top: 100px;
+    text-decoration: none;
+    color: rgb(0, 115, 222);
+}
+
+a#btn_ibm:hover {
+    text-decoration: line-through;
+    transition: all 0.3s ease;
+    text-decoration-color: white;
+}
+
+a#btn_tesla {
+    display: inline-flex;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+    padding-top: 100px;
+    color: #000;
+    text-decoration: none;
+    transition: transform 0.3s ease; 
+}
+
+a#btn_tesla i {
+    font-size: 30px;
+    margin-top: 80px;
+    transition: transform 0.5s;
+    color:rgb(168, 8, 8);
+}
+
+a#btn_tesla:hover {
+font-style: italic;
+}
+
+a#btn_tesla:hover i {
+    transform: translateX(500px);
+}
+
+a#btn_color {
+    display: inline-flex;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 80px;
+    font-family: "Barlow Condensed", sans-serif;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: transform 0.5s ease; 
+    padding: 15px;
+}
+
+a#btn_color:hover {
+    background: linear-gradient(to right, #00f900 0%,#f4d800 47%,#ff8c00 77%,#ff0084 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: white;
+    font-weight: 700;
+    transition: transform 0.5s ease;
+    border-radius: 50px;
+}
+
+a#btn_npr {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 80px;
+    padding: 8px 16px;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.5s ease; 
+    padding: 15px;
+}
+
+a#btn_npr::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    background-color: rgb(208, 21, 21);
+    border-radius: 50%; 
+    transition: all 0.5s ease;
+    z-index: 1
+    top: 50%;
+    left: 50%;
+    transition: all .5s;
+}
+
+a#btn_npr:hover::before {
+    width: 100%; 
+    height: 100%;
+    transform: translate(-2px, 3px) scale(1); 
+}
+
+a#btn_npr:hover {
+    color: #fff;
+    font-weight: 800;
+}
+
+a#btn_npr:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_npr span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_facebook span {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 50px;
+    font-size: 90px;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(3, 122, 187);
+    border-radius: 50%; 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
+    transition: transform 0.5s ease; 
+    padding: 15px;
+}
+
+a#btn_facebook span:hover {
+    transform: rotate(360deg);
+}
+
+#btn_apple {
+    display: inline-flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 100px;
+    color: black;
+    text-decoration: none;
+}
+
+.fa-apple {
+    position: absolute;
+    opacity: 1;
+    transition: opacity 0.5s ease; 
+}
+
+.fa-apple-whole {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease; 
+}
+
+#btn_apple:hover .fa-apple {
+    opacity: 0; 
+}
+
+#btn_apple:hover .fa-apple-whole {
+    opacity: 1; 
+}
+
+#btn_kittens {
+    display: inline-block;
+    height: 70px;
+    margin-top: 100px;
+    padding: 7px 40px;
+    border: 2px solid #aa0b0b;
+    color: #aa0b0b; 
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: "Dokdo", system-ui;
+    font-weight: 400;
+    text-decoration: none; 
+    transition: all 0.3s ease;
+}
+
+#btn_kittens:hover {
+    animation: shake 0.3s ease-in-out infinite;
+    border-radius: 50px;
+    background-color: #aa0b0b;
+    color: white;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-3px); }
+    50% { transform: translateX(3px); }
+    75% { transform: translateX(-3px); }
+    100% { transform: translateX(0); }
+}
